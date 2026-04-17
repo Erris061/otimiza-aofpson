@@ -3,58 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <title>Otimizações para Jogos e Desempenho Máximo</title>
-
-  <!-- Fonte moderna -->
+  <meta name="description" content="Serviços de otimização de computadores para jogos competitivos. Aumente FPS e desempenho máximo.">
+  <meta name="keywords" content="otimização PC, FPS alto, Valorant, CS2, desempenho máximo, gamer, eSports">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-  <!-- Ícones Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
   <style>
     body {
       font-family: 'Poppins', sans-serif;
-      background-color: #000;
+      background: radial-gradient(circle at top left, #0f0, #111 70%);
       color: #fff;
       margin: 0;
+      line-height: 1.6;
     }
-
-    /* Banner principal */
     .banner {
-      background: linear-gradient(135deg, #0f0, #111);
+      background: linear-gradient(135deg, #0f0, #222);
       text-align: center;
-      padding: 60px 20px;
+      padding: 80px 20px;
+      border-bottom: 4px solid #0f0;
+      box-shadow: 0 0 30px #0f0;
     }
-    .banner h1 {
-      font-size: 36px;
-      color: #fff;
-    }
-    .banner p {
-      font-size: 18px;
-      color: #ccc;
-    }
+    .banner h1 {font-size: 48px; margin:0;}
+    .banner p {font-size: 20px; color:#ccc;}
+    .menu {display:flex;justify-content:center;background:#111;padding:15px 20px;border-bottom:2px solid #0f0;}
+    .menu li {list-style:none;position:relative;margin:0 20px;}
+    .menu a {font-weight:600;font-size:16px;text-decoration:none;color:#0f0;padding:10px;transition:.3s;display:flex;align-items:center;}
+    .menu a:hover {color:#000;background:#0f0;border-radius:5px;}
+    .submenu {opacity:0;visibility:hidden;position:absolute;top:45px;left:0;background:#222;padding:12px;border-radius:8px;transition:.4s;transform:translateY(-10px);min-width:240px;z-index:999;box-shadow:0 0 15px #0f0;}
+    .menu li:hover>.submenu {opacity:1;visibility:visible;transform:translateY(0);}
+    section {background:#111;padding:40px;border-radius:12px;margin:40px auto;max-width:1000px;box-shadow:0 0 25px #0f0;}
+    section h2 {color:#0f0;text-align:center;margin-bottom:20px;}
+    .results img {width:320px;margin:10px;border-radius:12px;border:2px solid #0f0;transition:.3s;}
+    .results img:hover {transform:scale(1.05);}
+    .cta {text-align:center;margin:50px 0;}
+    .cta a {display:inline-block;background:#0f0;color:#000;padding:18px 36px;font-weight:bold;border-radius:10px;text-decoration:none;font-size:20px;transition:.3s;box-shadow:0 0 15px #0f0;}
+    .cta a:hover {background:#fff;color:#0f0;transform:scale(1.05);}
+    footer {background:#222;color:#ccc;text-align:center;padding:25px;border-top:3px solid #0f0;}
+    footer a {color:#0f0;text-decoration:none;}
+  </style>
+</head>
+<body>
+  <!-- Banner -->
+  <div class="banner">
+    <h1>Otimizações para Jogos e Desempenho Máximo</h1>
+    <p>Transforme seu PC em uma máquina de alto desempenho para jogos competitivos.</p>
+  </div>
 
-    /* Menu principal */
-    .menu {
-      display: flex;
-      background-color: #111;
-      padding: 10px 20px;
-      justify-content: center;
-    }
-    .menu li {
-      list-style: none;
-      position: relative;
-      margin: 0 20px;
-    }
-    .menu a {
-      font-weight: 600
-      <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Otimizações para Jogos e Desempenho Máximo</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient
+  <!-- Menu -->
+  <ul class="menu">
+    <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+      <ul class="submenu">
+        <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i> Abrir YouTube</a></li>
+        <li><a href="https://wa.me/5561999805769" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+      </ul>
+    </li>
+    <li><a href="#"><i class="fab fa-github"></i> GitHub</a>
+      <ul class="submenu">
+        <li><a href="https://github.com/Erris061" target="_blank"><i class="fab fa-github"></i> Meu GitHub</a></li>
+        <li><a href="https://erris061.github.io/otimiza-aofpson" target="_blank"><i class="fas fa-globe"></i> Meu Site</a></li>
+      </ul>
+    </li>
+    <li><a href="mailto:rb344460@gmail.com"><i class="fas fa-envelope"></i> Gmail</a></li>
+    <li><a href="#"><i class="fas fa-box"></i> Pacotes</a>
+      <ul class="submenu">
+        <li><a href="#"><i class="fas fa-star"></i> Start Gamer</a>
+          <ul class="submenu">
+            <li>🎮 Otimização de FPS</li>
+            <li>⚡ Ajustes de desempenho</li>
+            <li>🛠️ Configurações personalizadas</li>
+            <li>🔒 Segurança básica</li>
+            <li>📊 Relatório antes/depois</li>
+            <li>📞 Suporte inicial via WhatsApp</li>
+            <li><a href="https://wa.me/5561999805769?text=Quero%20o%20Pacote%20Start%20Gamer!" target="_blank"><i class="fab fa-whatsapp"></i> Pedir Orçamento</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="fas fa-rocket"></i> Avançado</a>
+          <ul class="submenu">
+            <li>🎮 Otimização completa de jogos</li>
+            <li>⚡ Ajustes avançados de sistema</li>
+            <li>🛠️ Configurações sob medida</li>
+            <li>📊 Relatório detalhado de desempenho</li>
+            <li>📞 Suporte via WhatsApp + Discord</li>
+            <li><a href="https://wa.me/5561999805769?text=Quero%20o%20Pacote%20Avançado!" target="_blank"><i class="fab fa-whatsapp"></i> Pedir Orçamento</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><i class="fas fa-crown"></i> Premium</a>
+          <ul class="submenu">
+            <li>🎮 Otimização máxima de FPS</li>
+            <li>⚡ Ajustes profissionais de hardware e software</li>
+            <li>🛠️ Configurações exclusivas para eSports</li>
+            <li>📊 Relatório comparativo + consultoria</li>
+            <li>📞 Suporte VIP (WhatsApp, Discord, E-mail)</li>
+            <li><a href="https://wa.me/5561999805769?text=Quero%20o%20Pacote%20Premium!" target="_blank"><i class="fab fa-whatsapp"></i> Pedir Orçamento</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="https://wa.me/5561999805769?text=Quero%20um%20orçamento!" target="_blank"><i class="fas fa-dollar-sign"></i> Orçamento</a></li>
+  </ul>
+
+  <!-- Serviços -->
+  <section>
+    <h2>Serviços</h2>
+    <p style="text-align:center;">Otimizações avançadas para aumentar FPS, reduzir lag e garantir estabilidade máxima.</p>
+  </section>
+
+  <!-- Resultados -->
+  <section class="results">
+    <h2>🚀 Resultados Reais</h2>
+    <p>FPS alto em jogos competitivos como CS2 e Valorant.</p>
+    <img src="https://via.placeholder.com/600x300?text=FPS+Alto+CS2" alt="CS2 FPS alto">
+    <img src="https://via.placeholder.com/600x300?text=FPS+Alto+Valorant" alt="Valorant FPS alto">
+  </section>
+
+  <!-- Chamada para ação -->
+  <div class="cta">
+    <a href="https://wa.me/5561999805769?text=Quero%20um%20orçamento!" target="_blank">🚀 Ped
