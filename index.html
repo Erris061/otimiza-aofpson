@@ -10,8 +10,8 @@
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
-      background: #000; /* fundo preto sólido */
-      background: radial-gradient(circle at top left, #007bff, #000 70%); /* azul + preto */
+      background-color: #000; /* fundo preto sólido */
+      background-image: radial-gradient(circle at top left, #007bff, #000 70%); /* azul + preto */
       color: #fff;
       margin: 0;
       line-height: 1.7;
@@ -125,4 +125,110 @@
       flex:1;
       min-width:300px;
       background:#111;
-      border:2px solid #007b
+      border:2px solid #007bff;
+      border-radius:12px;
+      padding:25px;
+      box-shadow:0 0 15px #007bff;
+      text-align:center;
+      transition:.3s;
+    }
+    .card:hover {
+      transform:translateY(-5px);
+      box-shadow:0 0 25px #007bff;
+    }
+    .card h3 {
+      color:#007bff;
+      font-size:26px;
+      font-weight:700;
+    }
+    .card ul {
+      list-style:none;
+      padding:0;
+      line-height:1.8;
+      font-size:15px;
+    }
+    .card a {
+      display:inline-block;
+      margin-top:15px;
+      background:#007bff;
+      color:#000;
+      padding:10px 20px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      transition:.3s;
+    }
+    .card a:hover {
+      background:#fff;
+      color:#007bff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Banner -->
+  <div class="banner">
+    <h1>⚡ Otimizações para Jogos 🎮 e Desempenho Máximo 🚀</h1>
+    <p>Transforme seu PC 💻 em uma máquina de alto desempenho ⚡ para jogos competitivos 🎯.</p>
+    <p class="highlight">🔥 244 FPS estáveis em TODOS os jogos — performance de elite para quem exige vitória! 🏆</p>
+  </div>
+
+  <!-- Pacotes em cards -->
+  <section>
+    <h2>📦 Nossos Pacotes</h2>
+    <div class="packages">
+      <div class="card">
+        <h3>Start Gamer 🎮</h3>
+        <ul>
+          <li>🎮 Otimização de FPS</li>
+          <li>⚡ Ajustes básicos</li>
+          <li>🔒 Segurança básica</li>
+          <li>📊 Relatório antes/depois</li>
+          <li>📞 Suporte inicial via WhatsApp</li>
+        </ul>
+        <p class="price">💲 R$10</p>
+        <a href="https://wa.me/5561999805769?text=Quero%20o%20Pacote%20Start%20Gamer!" target="_blank">Contratar</a>
+      </div>
+      <div class="card">
+        <h3>Avançado ⚡</h3>
+        <ul>
+          <li>🎮 Otimização completa</li>
+          <li>⚡ Ajustes avançados de sistema</li>
+          <li>🛠️ Configurações sob medida</li>
+          <li>📊 Relatório detalhado</li>
+          <li>🤝 Suporte via WhatsApp + Discord</li>
+        </ul>
+        <p class="price">💲 R$20</p>
+        <a href="https://wa.me/5561999805769?text=Quero%20o%20Pacote%20Avançado!" target="_blank">Contratar</a>
+      </div>
+      <div class="card">
+        <h3>Premium 🏆</h3>
+        <ul>
+          <li>🎮 FPS máximo</li>
+          <li>⚡ Ajustes profissionais</li>
+          <li>🛠️ Configurações exclusivas eSports</li>
+          <li>📊 Consultoria completa</li>
+          <li>⭐ Suporte VIP (WhatsApp, Discord, E-mail)</li>
+        </ul>
+        <p class="price">💲 R$45</p>
+        <p class="note">* Casos complexos podem exigir orçamento personalizado.</p>
+        <a href="https://wa.me/5561999805769?text=Quero%20o%20Pacote%20Premium!" target="_blank">Contratar</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resultados -->
+  <section class="results">
+    <h2>🚀 Resultados Reais 🎯</h2>
+    <p style="text-align:center;">FPS alto 📈 em jogos competitivos como CS2 🎮 e Valorant 🔫.</p>
+    <div style="text-align:center;">
+      <img src="https://via.placeholder.com/600x300?text=FPS+Alto+CS2" alt="CS2 FPS alto" style="border-radius:12px;border:2px solid #007bff;margin:10px;">
+      <img src="https://via.placeholder.com/600x300?text=FPS+Alto+Valorant" alt="Valorant FPS alto" style="border-radius:12px;border:2px solid #007bff;margin:10px;">
+    </div>
+  </section>
+
+  <!-- Chamada para ação -->
+  <div class="cta">
+    <a href="https://wa.me/5561999805769?text=Quero%20um%20orçamento!" target="_blank">🚀 Pedir Orçamento 💬</a>
+  </div>
+
+  <!-- Rodapé -->
